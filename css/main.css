@@ -130,11 +130,8 @@ button {
   }
 }
 
-.logo {
-  display: block;
-}
-
-.logo__letters {
+.text-logo {
+  display: flex;
   font-size: 5px;
   font-weight: 700;
   line-height: 1.2;
@@ -143,47 +140,28 @@ button {
   text-decoration: uppercase;
 }
 
-.logo__letter-first {
+.text-logo_first {
   color: var(--color-accent);
 }
 
-.logo__letter-following {
+.text-logo_following {
   color: var(--color-primary);
 }
 
-/*.logo {
-  font-family: var(--font-family-logo);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: var(--latter-spacing-mean);
-}
-.logo_style_dark {
-  color: #212121;
-}
-.logo__style {
-  color: #2196f3;
-}
-//768+ tablet
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .logo_style_dark {
     margin-right: 88px;
   }
 }
-//1200+ desktop
+
 @media screen and (min-width: 1200px) {
   .logo_style_dark {
     margin-right: 92px;
   }
-}*/
-/*
-@import './components/modal-window';*/
-/*-----Mobile-----*/
-.navigation__list {
-  display: none;
 }
 
-.communication-list {
+/*-----Mobile-----*/
+.navigation__list {
   display: none;
 }
 
@@ -409,6 +387,8 @@ button {
   }
 }
 
-/*@import './layout/hero';
+/*
+@import './components/modal-window';
+@import './layout/hero';
 @import './layout/footer';*/
 /*# sourceMappingURL=main.css.map */

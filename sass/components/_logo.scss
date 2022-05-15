@@ -14,19 +14,6 @@
   color: var(--color-primary);
 }
 
-/*.logo {
-  font-family: var(--font-family-logo);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: var(--latter-spacing-mean);
-}
-.logo_style_dark {
-  color: #212121;
-}
-.logo__style {
-  color: #2196f3;
-}
 //768+ tablet
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .logo_style_dark {
@@ -38,4 +25,4 @@
   .logo_style_dark {
     margin-right: 92px;
   }
-}*/
+}
