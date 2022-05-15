@@ -1,4 +1,21 @@
 .logo {
+  display: block;
+}
+.logo__letters {
+  font-size: 5px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.18em;
+  text-align: left;
+  text-decoration: uppercase;
+}
+.logo__letters-first {
+  color: var(--color-accent);
+}
+.logo__letters-following {
+  color: var(--color-primary);
+}
+/*.logo {
   font-family: var(--font-family-logo);
   font-weight: 700;
   font-size: 26px;
@@ -22,4 +39,4 @@
   .logo_style_dark {
     margin-right: 92px;
   }
-}
+}*/

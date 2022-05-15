@@ -7,7 +7,7 @@
   cursor: pointer;
 }
 .current {
-  color: #2196f3;
+  color: #ff6b09;
 }
 ul {
   list-style: none;
@@ -20,9 +20,7 @@ a {
 }
 address {
   font-style: normal;
-  margin-top: 20px;
 }
-/*-----СБРОС СТИЛЕЙ БРАУЗЕРА-----*/
 h1,
 h2,
 h3,
@@ -44,14 +42,24 @@ img {
   max-width: 100%;
   height: auto;
 }
-/*-----ОБЩИЕ БЛОЧНЫЕ СТИЛИ-----*/
-.section {
-  padding: 94px 0;
-}
-/*-----СТИЛИ, КОТОРЫЕ НАСЛЕДУЮТСЯ-----*/
 body {
-  font-family: var(--font-family-primary);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.08em;
+}
+h1,
+h2 {
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  /*-
+font-size: px;
+line-height: ;
+color: ;
+--*/
+}
+button {
   font-size: 14px;
-  background-color: var(--background-color-primary);
-  letter-spacing: var(--latter-spacing-mean);
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0.14em;
+  text-align: center;
 }
