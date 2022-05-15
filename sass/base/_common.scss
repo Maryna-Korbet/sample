@@ -1,0 +1,57 @@
+/*-----СБРОС МАРКЕРОВ СО СПИСКОВ, ПОДЧЕРКИВАНИЯ ССЫЛОК, НАКЛОНА БУКВ В АДРЕСАХ-----*/
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.current {
+  color: #2196f3;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #212121;
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+  margin-top: 20px;
+}
+/*-----СБРОС СТИЛЕЙ БРАУЗЕРА-----*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*-----ОБЩИЕ БЛОЧНЫЕ СТИЛИ-----*/
+.section {
+  padding: 94px 0;
+}
+/*-----СТИЛИ, КОТОРЫЕ НАСЛЕДУЮТСЯ-----*/
+body {
+  font-family: var(--font-family-primary);
+  font-size: 14px;
+  background-color: var(--background-color-primary);
+  letter-spacing: var(--latter-spacing-mean);
+}

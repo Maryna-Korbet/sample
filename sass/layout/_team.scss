@@ -1,0 +1,56 @@
+/*-----СЕКЦИЯ НАША КОМАНДА-----*/
+.team {
+  background-color: var(--background-color-section-team);
+}
+.team__header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: var(--latter-spacing-mean);
+  color: var(--color-theme-light-primary);
+  margin-bottom: 50px;
+}
+.team__item {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.team__list {
+  background: var(--background-color-primary);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+}
+.team__list_position {
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.team__img {
+  border-radius: 0px;
+}
+.team__block {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: var(--latter-spacing-mean);
+  color: var(--color-theme-light-primary);
+  margin-bottom: 10px;
+}
+.team__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: var(--latter-spacing-mean);
+  color: var(--color-theme-light-secondary);
+  margin-bottom: 16px;
+}
