@@ -9,9 +9,11 @@
 }
 .logo__letters-first {
   color: var(--color-accent);
+  text-decoration: uppercase;
 }
 .logo__letters-following {
   color: var(--color-primary);
+  text-decoration: uppercase;
 }
 /*.logo {
   font-family: var(--font-family-logo);
