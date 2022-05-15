@@ -9,11 +9,11 @@
   text-align: left;
   text-decoration: uppercase;
 }
-.logo__letters-first {
-  fill: var(--color-accent);
+.logo__letter-first {
+  color: var(--color-accent);
 }
-.logo__letters-following {
-  fill: var(--color-primary);
+.logo__letter-following {
+  color: var(--color-primary);
 }
 /*.logo {
   font-family: var(--font-family-logo);
